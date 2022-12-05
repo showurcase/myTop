@@ -8,14 +8,15 @@ import { ProductModel } from './product/product.model';
 import { ProductModule } from './product/product.module';
 
 @Module({
-	imports: [
-		AuthModule,
-		TopPageModule,
-		ReviewModule,
-		ProductModel,
-		ProductModule,
-	],
-	controllers: [AppController],
-	providers: [AppService],
+    imports: [
+        AuthModule,
+        TopPageModule,
+        ReviewModule,
+        ProductModel,
+        ProductModule
+    ],
+    controllers: [AppController],
+    providers: [AppService]
 })
-export class AppModule {}
+export class AppModule {
+}

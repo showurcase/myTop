@@ -44,6 +44,11 @@
                     true,
                     120
                 ],
+                "indent": [
+                    true,
+                    "spaces",
+                    4
+                ],
                 "no-trailing-whitespace": false,
                 "quotemark": [
                     true,
