@@ -49,10 +49,6 @@
                     true,
                     "single"
                 ],
-                "semicolon": [
-                    true,
-                    "always"
-                ],
                 "trailing-comma": false
             }
         }
